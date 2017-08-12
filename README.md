@@ -24,7 +24,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 \begin{table}[h!]	
 	\centering
 	\Caption{\label{tab:label_da_tabela} Legenda da Tabela}
-	\UECEtab{}{
+	\UNIFORtab{}{
 		\begin{tabular}{ccll}
 			\toprule
 	    		Quisque & pharetra & tempus & vulputate \\
@@ -48,7 +48,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 \begin{quadro}[h!]	
 	\centering
 	\Caption{\label{qua:label_do_quadro} Legenda do Quadro}
-	\UECEqua{}{
+	\UNIFORqua{}{
 		\begin{tabular}{|c|c|}
 			\hline
 			Quisque & pharetra \\
@@ -69,7 +69,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 \begin{figure}[h!]
 	\centering
 	\Caption{\label{fig:label_da_figura} Legenda da Figura}	
-	\UECEfig{}{
+	\UNIFORfig{}{
 	    \includegraphics[width=8cm]{figuras/figura-1}
 	}{
 	    \Fonte{Elaborado pelo autor}
