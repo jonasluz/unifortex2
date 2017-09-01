@@ -29,9 +29,19 @@
 
 % Opcoes disponiveis
 
+%% Trabalho final de GRADUAÇÃO no qual a folha de aprovação será um arquivo PDF
+%\trabalhoacademico{tccgraduacaoPDF}
+
+%% Trabalho final de GRADUAÇÃO no qual a folha de aprovação será gerada pelo modelo UniforTEX
 \trabalhoacademico{tccgraduacao}
+
+%% Trabalho final de ESPECIALIZAÇÃO no qual a folha de aprovação será gerada pelo modelo UniforTEX
 %\trabalhoacademico{tccespecializacao}
+
+%% Trabalho final de MESTRADO no qual a folha de aprovação será gerada pelo modelo UniforTEX
 %\trabalhoacademico{dissertacao}
+
+%% Trabalho final de DOUTORADO no qual a folha de aprovação será gerada pelo modelo UniforTEX
 %\trabalhoacademico{tese}
 
 % Define se o trabalho eh uma qualificacao
@@ -91,12 +101,12 @@
 %%  Informação relacionadas ao trabalho     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\autor{Allan Turing}
-\titulo{On Computable Numbers, with an Application to the Entscheidungsproblem}
+\autor{Bruno Lopes Alcantara Batista}
+\titulo{Modelo Canônico de Trabalho Acadêmico \\ da Universidade de Fortaleza com \abnTeX}
 \data{2017}
 \local{Fortaleza -- Ceará}
 
-% Exemplo: \dataaprovacao{01 de Janeiro de 2012}
+% Exemplo: \dataaprovacao{01 de Janeiro de 2017}
 \dataaprovacao{01 de Janeiro de 2017}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -130,7 +140,7 @@
 % \membrodabancadoisies{Universidade Estadual do Ceará - UECE}
 
 \membrodabancadois{Membro da Banca Dois}
-\membrodabancadoiscentro{Faculdade de Filosofia Dom Aureliano Matos – FAFIDAM}
+\membrodabancadoiscentro{Centro de Ciências e Tecnologia - CCT}
 \membrodabancadoisies{Universidade do Membro da Banca Dois - SIGLA}
 
 \membrodabancatres{Membro da Banca Três}
@@ -142,11 +152,11 @@
 \membrodabancaquatroies{Universidade do Membro da Banca Quatro - SIGLA}
 
 \membrodabancacinco{Membro da Banca Cinco}
-\membrodabancacincocentro{Teste}
+\membrodabancacincocentro{Centro de Ciências e Tecnologia - CCT}
 \membrodabancacincoies{Universidade do Membro da Banca Cinco - SIGLA}
 
 \membrodabancaseis{Membro da Banca Seis}
-\membrodabancaseiscentro{}
+\membrodabancaseiscentro{Centro de Ciências e Tecnologia - CCT}
 \membrodabancaseisies{Universidade do Membro da Banca Seis - SIGLA}
 
 \begin{document}
@@ -156,7 +166,26 @@
 	\imprimirfolhaderosto{}
 	\imprimirfichacatalografica{elementos-pre-textuais/ficha-catalografica}
 	\imprimirerrata{elementos-pre-textuais/errata}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%																                               	%%
+	%%		Após a defesa do TCC, a banca examinadora irá preencher a folha de aprovação,			%%
+	%%		que deverá ser assinada por todos os membros da banca avaliadora e, posteriormente,		%%
+	%%		deverá ser anexada na versão final do TCC pelo ALUNO.									%%
+	%%																								%%
+	%%		Quando tiver em mãos a folha de aprovação:												%%
+	%%			1 - Escanei-a e gere um arquivo PDF													%%
+	%%			2 - Renomeie o arquivo PDF para "folha-aprovacao.pdf"								%%
+	%%			3 - Mova o arquivo para o diretório "elementos-pre-textuais" do modelo				%%
+	%%			5 - Descomente a linha \includepdf{elementos-pre-textuais/folha-aprovacao.pdf} 		%%
+	%%					removendo o simbolo de %													%%
+	%%			6 - Adicione o simbolo % na linha 	\imprimirfolhadeaprovacao						%%
+	%%			7 - Recompile o projeto																%%
+	%%																								%%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	%\includepdf{elementos-pre-textuais/folha-aprovacao.pdf}
 	\imprimirfolhadeaprovacao
+	
 	\imprimirdedicatoria{elementos-pre-textuais/dedicatoria}
 	\imprimiragradecimentos{elementos-pre-textuais/agradecimentos}
 	\imprimirepigrafe{elementos-pre-textuais/epigrafe}
