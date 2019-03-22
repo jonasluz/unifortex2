@@ -68,8 +68,9 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ```tex
 \begin{figure}[h!]
 	\centering
-	\Caption{\label{fig:label_da_figura} Legenda da Figura}	
-	\UNIFORfig{}{
+	\UNIFORfig{
+	    \Caption{\label{fig:label_da_figura} Legenda da Figura}	
+	}{
 	    \includegraphics[width=8cm]{figuras/figura-1}
 	}{
 	    \Fonte{Elaborado pelo autor}
