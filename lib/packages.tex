@@ -21,17 +21,6 @@
 %%                                                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[
-    a4paper,          % Tamanho da folha A4
-    12pt,             % Tamanho da fonte 12pt
-    chapter=TITLE,    % Todos os capitulos devem ter caixa alta
-    section=TITLE,    % Todas as secoes devem ter caixa alta
-    oneside,          % Usada para impressao em apenas uma face do papel
-    english,          % Hifenizacoes em ingles
-    spanish,          % Hifenizacoes em espanhol
-    brazil            % Ultimo idioma eh o idioma padrao do documento
-]{abntex2}
-
 % Importações de pacotes
 \usepackage[brazil]{babel} 
 \usepackage[utf8]{inputenc}                         % Acentuação direta
@@ -73,9 +62,3 @@
 \usepackage{lib/unifortex2}		                    % Biblioteca com as normas da Unifor para trabalhos academicos
 \usepackage{pdfpages}                               % Incluir pdf no documento
 \usepackage{amsmath}                                % Usar equacoes matematicas
-
-% Organiza e gera a lista de abreviaturas, simbolos e glossario
-\makeglossaries
-
-% Gera o Indice do documento
-\makeindex
